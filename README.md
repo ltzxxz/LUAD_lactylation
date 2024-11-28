@@ -1,15 +1,11 @@
-![image](https://github.com/user-attachments/assets/526e3e68-0d68-47f8-9727-a001eeb9fda3)## Reproducible Scripts for LUAD Analysis**
+## Reproducible Scripts for LUAD Analysis**
 
 ### This repository contains R scripts that reproduce the results presented in the study: "Integrating Machine Learning and Multiomic Data for Molecular Typing and Prognosis Prediction in Lung Adenocarcinoma (LUAD)."**
 
 These scripts detail the comprehensive workflow for analyzing lactylation-related genes (LRGs) in LUAD, including data preprocessing, multiomics subtyping, prognostic model construction, and immune and therapeutic response analyses.
 
 
-
-
 <img src="abstract.png" width="600" height="600" />
-
-
 
 
 ### Workflow Overview
@@ -85,29 +81,9 @@ The analysis pipeline is structured into the following key steps, each correspon
 4. **Data**: Any data produced during this pipeline is available upon request.
 
 
----
-
-### **Directory Structure**
-| Script Name                      | Description                                         |
-|----------------------------------|-----------------------------------------------------|
-| `01_Data_cleaning.R`             | Data preprocessing and cleaning.                   |
-| `02_Clustering.R`                | Multiomics clustering and subtype analysis.         |
-| `03_GSVA.R`, `05_ssGSEA.R`       | Pathway scoring and enrichment analyses.            |
-| `04_PCA.R`                       | PCA for subtype visualization.                     |
-| `06_IBOR_immune_infiltration.R`  | Immune cell infiltration analysis.                 |
-| `07_Gene_selection.R`            | LRG selection and prioritization.                  |
-| `08_Machine_learning.R`          | Prognostic model construction using machine learning. |
-| `09_SCORE_clinical_association.R`| Clinical correlation analysis.                     |
-| `10_Multiple_regression.R`       | Regression analyses for pathways and genes.        |
-| `11_RS_enrichment.R`             | Risk group enrichment analysis.                    |
-| `12_Stemness_TMB_MSI.R`          | Analysis of TMB, MSI, and stemness indices.        |
-| `13_Microenvironment.R`          | Tumor microenvironment profiling.                  |
-| `14_Chemokines_score.R`          | Chemokine activity scoring.                        |
-| `16_Drug_resistence_score.R`     | Drug resistance predictions.                       |
-| `17_Categorized_mutation_comparison.R` | Mutation analysis and visualization.             |
 
 ---
 
 ### **Contact**
-For questions or issues, please contact [Tao Li] at [Qllitao@126.com].
+For questions or issues, please contact Tao Li at Qllitao@126.com.
 
