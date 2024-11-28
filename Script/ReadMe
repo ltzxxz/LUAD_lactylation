@@ -1,1 +1,18 @@
-Here are the scripts
+### **Directory Structure**
+| Script Name                      | Description                                         |
+|----------------------------------|-----------------------------------------------------|
+| `01_Data_cleaning.R`             | Data preprocessing and cleaning.                   |
+| `02_Clustering.R`                | Multiomics clustering and subtype analysis.         |
+| `03_GSVA.R`, `05_ssGSEA.R`       | Pathway scoring and enrichment analyses.            |
+| `04_PCA.R`                       | PCA for subtype visualization.                     |
+| `06_IBOR_immune_infiltration.R`  | Immune cell infiltration analysis.                 |
+| `07_Gene_selection.R`            | LRG selection and prioritization.                  |
+| `08_Machine_learning.R`          | Prognostic model construction using machine learning. |
+| `09_SCORE_clinical_association.R`| Clinical correlation analysis.                     |
+| `10_Multiple_regression.R`       | Regression analyses for pathways and genes.        |
+| `11_RS_enrichment.R`             | Risk group enrichment analysis.                    |
+| `12_Stemness_TMB_MSI.R`          | Analysis of TMB, MSI, and stemness indices.        |
+| `13_Microenvironment.R`          | Tumor microenvironment profiling.                  |
+| `14_Chemokines_score.R`          | Chemokine activity scoring.                        |
+| `16_Drug_resistence_score.R`     | Drug resistance predictions.                       |
+| `17_Categorized_mutation_comparison.R` | Mutation analysis and visualization.             |
