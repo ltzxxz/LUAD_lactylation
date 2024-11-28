@@ -1,6 +1,6 @@
 ## Reproducible Scripts for LUAD Analysis**
 
-### This repository contains R scripts that reproduce the results presented in the study: "Integrating Machine Learning and Multiomic Data for Molecular Typing and Prognosis Prediction in Lung Adenocarcinoma (LUAD)."**
+### This repository contains R scripts that reproduce the results presented in the study: "Integrating Machine Learning and Multiomic Data for Molecular Typing and Prognosis Prediction in Lung Adenocarcinoma (LUAD)."
 
 These scripts detail the comprehensive workflow for analyzing lactylation-related genes (LRGs) in LUAD, including data preprocessing, multiomics subtyping, prognostic model construction, and immune and therapeutic response analyses.
 
@@ -73,10 +73,7 @@ The analysis pipeline is structured into the following key steps, each correspon
    ```
 
 3. **Run Scripts**:
-   Follow the logical order of the scripts listed above to reproduce each step of the analysis:
-   - Start with `01_Data_cleaning.R` for data preprocessing.
-   - Proceed to clustering (`02_Clustering.R`), pathway enrichment (`03_GSVA.R`), and immune analysis (`06_IBOR_immune_infiltration.R`).
-   - End with prognostic modeling (`08_Machine_learning.R`) and mutation analysis (`17_Categorized_mutation_comparison.R`).
+   Follow the logical order of the scripts listed above to reproduce each step of the analysis.
    
 4. **Data**: Any data produced during this pipeline is available upon request.
 
