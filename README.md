@@ -5,7 +5,7 @@
 These scripts detail the comprehensive workflow for analyzing lactylation-related genes (LRGs) in LUAD, including data preprocessing, multiomics subtyping, prognostic model construction, and immune and therapeutic response analyses.
 
 
-<img src="abstract.png" width="450" height="600" />
+<img src="abstract.png" width="500" height="600" />
 
 
 ### Workflow Overview
