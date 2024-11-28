@@ -1,11 +1,11 @@
-## Reproducible Scripts for LUAD Analysis**
+## Reproducible Scripts for LUAD Analysis
 
 ### This repository contains R scripts that reproduce the results presented in the study: "Integrating Machine Learning and Multiomic Data for Molecular Typing and Prognosis Prediction in Lung Adenocarcinoma (LUAD)."
 
 These scripts detail the comprehensive workflow for analyzing lactylation-related genes (LRGs) in LUAD, including data preprocessing, multiomics subtyping, prognostic model construction, and immune and therapeutic response analyses.
 
 
-<img src="abstract.png" width="600" height="600" />
+<img src="abstract.png" width="450" height="600" />
 
 
 ### Workflow Overview
